@@ -32,3 +32,12 @@ $("#webtitle").on("click", function () {
 $("#add_news").on("click", function () {
   window.location.href = "./?link=add_news";
 });
+$("#webtitled").on("click", function () {
+  window.location.href = "./?link=dashboard_dark";
+});
+$("#darkmode").on("click", function () {
+  window.location.href = "./?link=dashboard_dark";
+});
+$("#lightmode").on("click", function () {
+  window.location.href = "./?link=dashboard";
+});

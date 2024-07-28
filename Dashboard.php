@@ -146,6 +146,7 @@ include_once("justyn_ssn.php");
           <br />
           <div class="item " id="acc_set"><i class="settings icon"></i>Account Settings</div>
           <div class="item " id="add_account"><i class="user plus icon"></i>Sign in</div>
+          <div class="item " id="darkmode"><i class="lightbulb icon"></i>Dark Mode</div>
           <div class="item " id="log_out"><i class="sign out alternate icon"></i>Log out</div>
         </div>
       </div>
@@ -187,21 +188,21 @@ include_once("justyn_ssn.php");
   <div class="ui segments" style="width:90%; margin-left:5%; margin-right:auto; border-radius:0px; box-shadow:none;border:none; ">
     <div class="ui segments" style="border-width:0px; box-shadow:none;">
       <div class="ui horizontal segments" style=" border-radius:0px; border:none; box-shadow:none;">
-        <div class="ui segment section" style="border-radius:0px; max-width:33.4%; cursor:pointer;">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; cursor:pointer;">
           <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/90DB/production/_132938073_gettyimages-1153125976.jpg.webp" class="rimg"><br />
           <span style="font-size: 120%;">Hong Kong: Actor Gregory Wong among 12 jailed over 2019 protest</span>
         </div>
-        <div class="ui segment section" style="border-radius:0px; max-width:33.4%; ">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; ">
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1453E/production/_132726238_gabbardnoemandstefanik-getty1.png.webp" class="rimg"><br />
           <span style="font-size: 120%; text-align:justify">Noem and Ramaswamy top CPAC straw poll on who should be Trump’s VP pick</span>
         </div>
-        <div class="ui segment section" style="border-radius:0px; max-width:33.4%; ">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; ">
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="rimg"><br />
           <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
         </div>
       </div>
 
-      <div class="ui horizontal segments" style="margin:auto; border-radius:0px; border:none; box-shadow:none; margin-top:5%">
+      <div class="ui horizontal segments" style="margin:auto; border-radius:0px; border:none; box-shadow:none;">
         <div class="ui segment section" style="border-radius:0px; max-width:33.3%">
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/992D/production/_132731293_navalny.jpg.webp" class="rimg"><br />
           <span style="font-size: 120%;">Alexei Navalny: Dissent is dangerous in Russia, but activists refuse to give up</span>

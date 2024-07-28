@@ -75,23 +75,26 @@ include_once("justyn_ssn.php");
 
 .section{
   transition: 0.8s;
+  background: #252221 !important;
+  color: white;
 }
 
     .section:hover {
-      background-color: #E5DDDB !important;
+      background-color: #2e3e46 !important;
       cursor: pointer;
       text-decoration: underline;
       color: #758ec6;
       transition-duration: 0.5s;
     }
 
+    .desc .section:hover{
+  text-decoration: none !important;
+}
+
     .bottom_menu:hover {
       color: #1152F2 !important;
     }
 
-    .desc{
-      text-decoration: none !important;
-    }
 
     body{
         background-color: #252221;
@@ -103,7 +106,7 @@ include_once("justyn_ssn.php");
 <body>
 
   <div class="ui fixed inverted menu" style="margin-bottom: -1%; width:100%;">
-    <a class="item" id="webtitle">
+    <a class="item" id="webtitled">
       <img src="../Justyn/image/birdlogo.png" style="display: inline-block;
     vertical-align: middle;
     margin-left: 0.5em;
@@ -150,6 +153,7 @@ include_once("justyn_ssn.php");
           <br />
           <div class="item " id="acc_set"><i class="settings icon"></i>Account Settings</div>
           <div class="item " id="add_account"><i class="user plus icon"></i>Sign in</div>
+          <div class="item " id="lightmode"><i class="lightbulb outline icon"></i>Light Mode</div>
           <div class="item " id="log_out"><i class="sign out alternate icon"></i>Log out</div>
         </div>
       </div>
@@ -169,7 +173,7 @@ include_once("justyn_ssn.php");
     <div class="ui segment" id="news1" style="cursor: pointer; border-radius:0px; width:40%;box-shadow:none; border-style:solid; border-width:1px; border-color:darkgrey">
       <img class="ui small left floated image" src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/4A01/production/_133154981_bishopstab.jpg.webp"; style="width:50%">
       <p style=" font-size:150%">Sydney church stabbing: Bishop stabbed during sermon - reports</p>
-      <p class="desc" style="color:black;">A 16-year-old boy has been arrested after a bishop and several churchgoers were stabbed during a sermon in Sydney.</p>
+      <p class="desc" style="color:white; text-decoration:none">A 16-year-old boy has been arrested after a bishop and several churchgoers were stabbed during a sermon in Sydney.</p>
     </div>
   </div>
 
@@ -178,51 +182,48 @@ include_once("justyn_ssn.php");
   <div style="margin:auto;background-color: #758ec6; height:0.5%; width:90%;"></div>
   <div class="ui horizontal segments" style="width:90%; margin-left:5%; margin-right:auto; border-radius:0px; box-shadow:none;border:none; ">
 
-    <div class="ui segment section" style="cursor: pointer; border-radius:0px; width:50%;box-shadow:none;">
+    <div class="ui segment section" style="cursor: pointer; border-radius:0px; width:50%;box-shadow:none; border-color:#2e3e46 !important;">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C91F/production/_132678415_thaksin_getty.jpg.webp" class="limg"><br />
       <span style=" font-size:150%">Thaksin Shinawatra: Former Thai prime minister released on parole</span>
     </div>
-    <div class="ui segment section" style="cursor: pointer; border-radius:0px; max-width:50%;">
+    <div class="ui segment section" style="cursor: pointer; border-radius:0px; max-width:50%;border-color:#2e3e46 !important;">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C91F/production/_132678415_thaksin_getty.jpg.webp" class="limg"><br />
       <span style="font-size:150%">Thaksin Shinawatra: Former Thai prime minister released on parole</span>
     </div>
   </div>
 
-
-  
   <div class="ui segments" style="width:90%; margin-left:5%; margin-right:auto; border-radius:0px; box-shadow:none;border:none; ">
     <div class="ui segments" style="border-width:0px; box-shadow:none;">
       <div class="ui horizontal segments" style=" border-radius:0px; border:none; box-shadow:none;">
-        <div class="ui segment section" style="border-radius:0px; max-width:33.4%; cursor:pointer;">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; cursor:pointer; border-color:#2e3e46">
           <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/90DB/production/_132938073_gettyimages-1153125976.jpg.webp" class="rimg"><br />
           <span style="font-size: 120%;">Hong Kong: Actor Gregory Wong among 12 jailed over 2019 protest</span>
         </div>
-        <div class="ui segment section" style="border-radius:0px; max-width:33.4%; ">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%;border-color:#2e3e46">
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1453E/production/_132726238_gabbardnoemandstefanik-getty1.png.webp" class="rimg"><br />
           <span style="font-size: 120%; text-align:justify">Noem and Ramaswamy top CPAC straw poll on who should be Trump’s VP pick</span>
         </div>
-        <div class="ui segment section" style="border-radius:0px; max-width:33.4%; ">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; border-color:#2e3e46">
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="rimg"><br />
           <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
         </div>
       </div>
 
-      <div class="ui horizontal segments" style="margin:auto; border-radius:0px; border:none; box-shadow:none; margin-top:5%">
-        <div class="ui segment section" style="border-radius:0px; max-width:33.3%">
+      <div class="ui horizontal segments" style="margin:auto; border-radius:0px; border:none; box-shadow:none;">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; border-color:#2e3e46">
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/992D/production/_132731293_navalny.jpg.webp" class="rimg"><br />
           <span style="font-size: 120%;">Alexei Navalny: Dissent is dangerous in Russia, but activists refuse to give up</span>
         </div>
-        <div class="ui segment section" style="border-radius:0px; max-width:33.3%">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; border-color:#2e3e46">
           <img src="https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/11D20/production/_132729927_gettyimages-2035513456.jpg" class="rimg"><br />
           <span style="font-size: 120%;">Glasner wins first game as Palace boss against Burnley</span>
         </div>
-        <div class="ui segment section" style="border-radius:0px; max-width:33.3%">
+        <div class="ui segment section" style="border-radius:0px; max-width:33.3%; border-color:#2e3e46">
           <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1322C/production/_132708387_capture.jpg.webp" class="rimg"><br />
           <span style="font-size: 120%;">Nikkei: Japan's main stock index closes above 1989 record high</span>
         </div>
       </div>
     </div>
-
 
 
 
@@ -236,38 +237,38 @@ include_once("justyn_ssn.php");
   <div style="margin:auto;background-color: #758ec6; height:0.5%; width:90%;"></div>
   <br />
   <div class="ui horizontal segments bottom" style="margin:auto; border:none; box-shadow:none; width:90%">
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/90DB/production/_132938073_gettyimages-1153125976.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">Hong Kong: Actor Gregory Wong among 12 jailed over 2019 protest</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1453E/production/_132726238_gabbardnoemandstefanik-getty1.png.webp" class="bimg"><br />
       <span style="font-size: 120%; text-align:justify">Noem and Ramaswamy top CPAC straw poll on who should be Trump’s VP pick</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
   </div>
 
   <div class="ui horizontal segments bottom" style="margin:auto; border:none; box-shadow:none; width:90%">
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/90DB/production/_132938073_gettyimages-1153125976.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">Hong Kong: Actor Gregory Wong among 12 jailed over 2019 protest</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1453E/production/_132726238_gabbardnoemandstefanik-getty1.png.webp" class="bimg"><br />
       <span style="font-size: 120%; text-align:justify">Noem and Ramaswamy top CPAC straw poll on who should be Trump’s VP pick</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
@@ -284,45 +285,45 @@ include_once("justyn_ssn.php");
   <div style="margin:auto;background-color: #758ec6; height:0.5%; width:90%;"></div>
   <br />
   <div class="ui horizontal segments bottom" style="margin:auto; border:none; box-shadow:none; width:90%">
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/90DB/production/_132938073_gettyimages-1153125976.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">Hong Kong: Actor Gregory Wong among 12 jailed over 2019 protest</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1453E/production/_132726238_gabbardnoemandstefanik-getty1.png.webp" class="bimg"><br />
       <span style="font-size: 120%; text-align:justify">Noem and Ramaswamy top CPAC straw poll on who should be Trump’s VP pick</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
   </div>
 
   <div class="ui horizontal segments bottom" style="margin:auto; border:none; box-shadow:none; width:90%">
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/90DB/production/_132938073_gettyimages-1153125976.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">Hong Kong: Actor Gregory Wong among 12 jailed over 2019 protest</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1453E/production/_132726238_gabbardnoemandstefanik-getty1.png.webp" class="bimg"><br />
       <span style="font-size: 120%; text-align:justify">Noem and Ramaswamy top CPAC straw poll on who should be Trump’s VP pick</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
-    <div class="ui segment section" style="border-radius:0px; max-width:25%; ">
+    <div class="ui segment section" style="border-radius:0px; max-width:25%; border-color:#2e3e46">
       <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2407/production/_132732290_crgettyimages-2036678208.jpg.webp" class="bimg"><br />
       <span style="font-size: 120%;">SAG Awards 2024: Oppenheimer dominates ahead of Oscars</span>
     </div>
   </div>
   <br />
   <div class="bottom_box" style="background-color:#4a81b7; color:white;padding-top:1%;">
-    <a href id="webtitle">
+    <a href id="webtitled">
       <img src="../Justyn/image/birdlogo.png" style="display:inline;float:left;
     vertical-align: middle;
     margin-left: 0.5em;
