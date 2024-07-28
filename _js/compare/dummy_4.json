@@ -1,0 +1,39 @@
+{
+    "data":[
+        {
+            "Designator":"1",
+            "Status": "Move",
+            "Detail": "Move Layer"
+        },
+        {
+            "Designator":"A1",
+            "Status": "Move",
+            "Detail": "Rotate 90, Move Layer"
+        },
+        {
+            "Designator":"A2",
+            "Status": "Move",
+            "Detail": "Footprint Changed"
+        },
+        {
+            "Designator":"A3",
+            "Status": "Move",
+            "Detail": "Move X, Move Y, Rotate -270"
+        },
+        {
+            "Designator":"B2",
+            "Status": "Move",
+            "Detail": "Move X, Move Y, Rotate 270, Move Layer"
+        },
+        {
+            "Designator":"B3",
+            "Status": "ADDED",
+            "Detail": "ADDED"
+        },
+        {
+            "Designator":"B5",
+            "Status": "OMIT",
+            "Detail": "OMIT"
+        }
+    ]
+}

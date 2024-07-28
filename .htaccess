@@ -1,0 +1,15 @@
+# Aktifkan modul rewrite
+RewriteEngine On
+
+# Jalankan aturan berikut hanya jika file yang diminta bukan file fisik
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Jalankan aturan berikut hanya jika direktori yang diminta bukan direktori fisik
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Terjemahkan permintaan URL yang masuk ke link.php dengan variabel link
+RewriteRule ^(.*)$ justyn_link.php?link=$1 [L,QSA]
+RewriteCond %{HTTP_HOST} ^127.0.0.1$
+RewriteCond %{HTTP_HOST} ^localhost$
+RewriteRule ^/?$ 127.0.0.1/justyn/?link=$1 [L,QSA]
+RewriteRule ^/?$ localhost/justyn/?link=$1 [L,QSA]

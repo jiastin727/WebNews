@@ -1,0 +1,101 @@
+{
+    "data":[
+        {
+            "Designator":"1",
+            "RefX": "Match",
+            "RefY": "Match",
+            "Rotation": "Match",
+            "Layer": "Move Layer",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"2",
+            "RefX": "Match",
+            "RefY": "Match",
+            "Rotation": "Match",
+            "Layer": "Match",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"3",
+            "RefX": "Match",
+            "RefY": "Match",
+            "Rotation": "Match",
+            "Layer": "Match",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"A1",
+            "RefX": "Move X",
+            "RefY": "Move Y",
+            "Rotation": "Rotate 90",
+            "Layer": "Move Layer",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"A2",
+            "RefX": "Match",
+            "RefY": "Match",
+            "Rotation": "Match",
+            "Layer": "Match",
+            "Footprint": "Footprint Changed"
+        },
+        {
+            "Designator":"A3",
+            "RefX": "Move X",
+            "RefY": "Move Y",
+            "Rotation": "Rotate -270",
+            "Layer": "Match",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"A4",
+            "RefX": "Match",
+            "RefY": "Match",
+            "Rotation": "Match",
+            "Layer": "Match",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"A5",
+            "RefX": "Match",
+            "RefY": "Match",
+            "Rotation": "Match",
+            "Layer": "Match",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"B1",
+            "RefX": "Match",
+            "RefY": "Match",
+            "Rotation": "Match",
+            "Layer": "Match",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"B2",
+            "RefX": "Move X",
+            "RefY": "Move Y",
+            "Rotation": "Rotate 270",
+            "Layer": "Move Layer",
+            "Footprint": "Match"
+        },
+        {
+            "Designator":"B3",
+            "RefX": "OMIT",
+            "RefY": "OMIT",
+            "Rotation": "OMIT",
+            "Layer": "OMIT",
+            "Footprint": "OMIT"
+        }
+        ,
+        {
+            "Designator":"B4",
+            "RefX": "ADDED",
+            "RefY": "ADDED",
+            "Rotation": "ADDED",
+            "Layer": "ADDED",
+            "Footprint": "ADDED"
+        }
+    ]
+}

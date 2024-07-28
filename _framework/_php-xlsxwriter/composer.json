@@ -1,0 +1,27 @@
+{
+    "name": "pfurak/xlsx-writer",
+    "description": "Easy PHP XLSX Writer that is support cell styling, merged cells, multiple worksheets, images, line chart, bar chart and pie chart",
+    "keywords": ["php", "xlsx", "excel", "multiple worksheets", "merged cells", "cell styling", "image", "chart", "line chart", "linechart", "bar chart", "barchart", "pie chart", "piechart"],
+    "type": "project",
+    "homepage": "https://gitlab.com/pfurak/php-xlsxwriter",
+    "license": "MIT",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Patrik Zsolt Furak",
+            "email": "furak.patrik@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-zip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "XLSXWriter\\": "src/",
+            "XLSXWriter\\Chart\\": "src/Chart",
+            "XLSXWriter\\Chart\\LineChart\\": "src/Chart/LineChart"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+vendor
+vendor/
+test/
+test documents/
+*_backup*

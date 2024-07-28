@@ -1,0 +1,104 @@
+{
+    "data":[
+        {
+            "col" : "T2F00S00C0.7000",
+            "col2" : "T2F00S00C0.7000"
+        },
+        {
+            "col" : "OMIT X016Y014325",
+            "col2": "ADDED Y013423"
+        },
+        {
+            "col" : "OMIT X0152",
+            "col2": "T4F00S00C0.9001"
+        },
+        {
+            "col" : "OMIT Y013677",
+            "col2": "ADDED X0148Y014475"
+        },
+        {
+            "col" : "OMIT X0152Y014625",
+            "col2": "ADDED X0159"
+        },
+        {
+            "col" : "OMIT X016",
+            "col2": "ADDED X005675Y017125"
+        },
+        {
+            "col" : "T4F00S00C0.9000",
+            "col2": "ADDED X00565Y0177"
+        },
+        {
+            "col" : "OMIT X0059Y01795",
+            "col2": "ADDED X005425Y0165"
+        },
+        {
+            "col" : "OMIT Y0177",
+            "col2": "ADDED X005925"
+        },
+        {
+            "col" : "OMIT Y01745",
+            "col2": "ADDED X0063Y01695"
+        },
+        {
+            "col" : "OMIT Y0172",
+            "col2": "ADDED X00615Y0177"
+        },
+        {
+            "col" : "OMIT X006225Y017125",
+            "col2": "ADDED X007375Y017825"
+        },
+        {
+            "col" : "OMIT Y01695",
+            "col2": "ADDED Y01815"
+        },
+        {
+            "col" : "OMIT X007375",
+            "col2": "ADDED Y016275"
+        },
+        {
+            "col" : "OMIT Y017825",
+            "col2": "ADDED X0104Y0158"
+        },
+        {
+            "col" : "OMIT X014025Y018925",
+            "col2": "ADDED X0104Y0151"
+        },
+        {
+            "col" : "OMIT X014525",
+            "col2": "T7F00S00C1.2000"
+        },
+        {
+            "col" : "T7F00S00C1.2000",
+            "col2": "ADDED X0152Y019"
+        },
+        {
+            "col" : "OMIT X01435Y0194",
+            "col2": "ADDED Y0201"
+        },
+        {
+            "col" : "T16F00S00C2.5000",
+            "col2": "T12F00S00C1.9000"
+        },
+        {
+            "col" : "OMIT X014325Y01445",
+            "col2": "ADDED X0109195Y02059594"
+        },
+        {
+            "col" : "OMIT X013325",
+            "col2": "ADDED X01087373Y02169417"
+        },
+        {
+            "col" : "",
+            "col2": "T17F00S00C2.7000"
+        },
+        {
+            "col" : "",
+            "col2": "ADDED X014325Y01445"
+        },
+        {
+            "col" : "",
+            "col2": "ADDED X013325"
+        }
+    ]
+}
