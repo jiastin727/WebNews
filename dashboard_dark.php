@@ -333,7 +333,7 @@ include_once("justyn_ssn.php");
     </a>
     <br />
     <br />
-    <hr style="border-top: 2px solid white;">
+    <hr style="border-top: 2px solid #252221; border-bottom: 2px solid #252221;">
     <br />
     <br />
     <div style="background-color:#4a81b7; color:white; text-align:center">
@@ -360,5 +360,5 @@ include_once("justyn_ssn.php");
   <script src="./_js/notif.js"></script>
   <script src="./_js/Dashboard.js"></script>
 </body>
-<!-- sdadsasaasfafdfdsfd -->
+
 </html>
