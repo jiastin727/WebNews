@@ -326,8 +326,34 @@ include_once("justyn_ssn.php");
       <span style="font-family:'Times New Roman', Times, serif; font-size:medium; line-height:2.5em;vertical-align:middle; color:white;">JustynWeb</span>
     </a>
     <br />
+    <div class="ui list" style="color:white; margin-left:2%">
+      <div class="item">
+        <i class="users icon"></i>
+        <div class="content">
+          Justynweb
+        </div>
+      </div>
+      <div class="item">
+        <i class="marker icon"></i>
+        <div class="content">
+          Jember, East Java, Indonesia
+        </div>
+      </div>
+      <div class="item">
+        <i class="mail icon"></i>
+        <div class="content">
+          <a href="mailto:justynsumarto21@gmail.com" style="color: white;">justynsumarto21@gmail.com</a>
+        </div>
+      </div>
+      <div class="item">
+        <i class="linkify icon"></i>
+        <div class="content">
+          <a href="" id="bottom_profile" style="color: white;">justynweb</a>
+        </div>
+      </div>
+    </div>
     <br />
-    <hr style="border-top: 2px solid white;">
+    <hr style="border-top: 2px solid white; border-bottom: 2px solid white;">
     <br />
     <br />
     <div style="background-color:#4a81b7; color:white; text-align:center">
@@ -346,6 +372,7 @@ include_once("justyn_ssn.php");
         <br />
         <br />
       </div>
+      
       <div style="text-align: center;">Copyright 2024 JustynWeb. All rights reserved</div>
       <br />
     </div>

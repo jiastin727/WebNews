@@ -44,6 +44,16 @@ function sssn(username) {
   });
 }
 
+// function login(username, password) {
+//   // Lakukan validasi login (misalnya, cek dengan server)
+  
+//       // Jika validasi berhasil, simpan username dalam cookie
+//       setCookie("username", username, 7); // Cookie disimpan selama 7 hari
+  
+  
+// }
+
+
 $(document).ready(function () {
   $("#button_submit").on("click", function () {
     var username = $("#username").val();

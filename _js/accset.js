@@ -3,6 +3,8 @@ const LogoutProtect=false;
 var RESTLOC = decodeURIComponent(getCookie("restloc"));
 console.log($('#idReg').val());
 
+const username = getCookie("username");
+
 function submit(){
 $.ajax({
     type:"POST",
@@ -34,6 +36,9 @@ error:function(){
 },
 });
 }
+
+
+
 
 $(document).ready(function(){
     $("#submit_button").on("click", function(){
