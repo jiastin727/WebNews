@@ -10,6 +10,7 @@ $(document).ready(function () {
     submit();
   });
 
+
 $(".ui.dropdown").dropdown();
 $("#add_account").on("click", function () {
   window.location.href = "./?link=register2";
@@ -20,8 +21,9 @@ $("#log_out").on("click", function () {
 });
 
 $("#acc_set").on("click", function () {
-let fullUrl = "http://localhost/Justyn/?link=accset" + "&" + encodeURIComponent(username);
-console.log(fullUrl);
+  const username=getCookie("username")
+let fullUrl = "http://localhost/Justyn/?link=accset" + "&" + "p=" + encodeURIComponent(username);
+//console.log(username);
 // Current URL: http://localhost/Justyn/?link=accset
 window.location.assign(fullUrl);
 });

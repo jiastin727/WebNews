@@ -19,6 +19,7 @@ function login(username, password) {
       } else {
         IsResponseTrue(obj.message, "berhasil", true);
         window.location.href = "./?link=dashboard";
+        setCookie("username", username, 7);
       }
     },
     error: function () {
