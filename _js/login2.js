@@ -49,7 +49,7 @@ function sssn(username) {
 //   // Lakukan validasi login (misalnya, cek dengan server)
   
 //       // Jika validasi berhasil, simpan username dalam cookie
-//       setCookie("username", username, 7); // Cookie disimpan selama 7 hari
+//      setCookie("username", username, 7); // Cookie disimpan selama 7 hari
   
   
 // }

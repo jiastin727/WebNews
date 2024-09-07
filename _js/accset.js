@@ -35,14 +35,14 @@ function submit() {
   });
 }
 
-console.log(document.querySelector('#NilaiP').value);
+console.log(document.querySelector("#NilaiP").value);
 
 $(document).ready(function () {
   $("#submit_button").on("click", function () {
     submit();
   });
-
 });
+
 $(".ui.dropdown").dropdown();
 $("#add_account").on("click", function () {
   window.location.href = "./?link=register2";
@@ -54,7 +54,4 @@ $("#log_out").on("click", function () {
 
 $("#dashboard").on("click", function () {
   window.location.href = "./?link=dashboard";
-  
 });
-
-

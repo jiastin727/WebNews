@@ -4,9 +4,9 @@ if (session_status() === PHP_SESSION_NONE) {
 
 }
 $p = isset($_GET['p']) ? $_GET['p'] : '';
- 
+
     $pValue = $_GET['p'];
-    $pValue1=md5($_POST[$pValue]);
+
 //$ShowPhpErrorCode = false;
 
 include_once("justyn_link.php");
@@ -119,7 +119,7 @@ include_once("justyn_ssn.php");
       <input type="hidden" id="NilaiP" value="<?php echo $pValue1; ?>">
     </form>
   </div>
-  <script src="./_js/Axeswell_global.js"></script>
+  <script src="./_js/global.js"></script>
   <script src="./_js/notif.js"></script>
   <script src="./_js/accset.js"></script>
 </body>
