@@ -1,8 +1,13 @@
 <?php
 if (session_status() === PHP_SESSION_NONE) {
   session_start();
+
 }
-$ShowPhpErrorCode = false;
+$p = isset($_GET['p']) ? $_GET['p'] : '';
+
+    $pValue = $_GET['p'];
+
+//$ShowPhpErrorCode = false;
 
 include_once("justyn_link.php");
 include_once("justyn_config.php");
@@ -111,9 +116,10 @@ include_once("justyn_ssn.php");
       <div class="field">
       </div>
       <div class="ui button" id="submit_button" style="width:30%">Submit</div>
+      <input type="hidden" id="NilaiP" value="<?php echo $pValue1; ?>">
     </form>
   </div>
-  <script src="./_js/Axeswell_global.js"></script>
+  <script src="./_js/global.js"></script>
   <script src="./_js/notif.js"></script>
   <script src="./_js/accset.js"></script>
 </body>

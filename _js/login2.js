@@ -19,6 +19,7 @@ function login(username, password) {
       } else {
         IsResponseTrue(obj.message, "berhasil", true);
         window.location.href = "./?link=dashboard";
+        setCookie("username", username, 7);
       }
     },
     error: function () {
@@ -43,6 +44,16 @@ function sssn(username) {
     },
   });
 }
+
+// function login(username, password) {
+//   // Lakukan validasi login (misalnya, cek dengan server)
+  
+//       // Jika validasi berhasil, simpan username dalam cookie
+//      setCookie("username", username, 7); // Cookie disimpan selama 7 hari
+  
+  
+// }
+
 
 $(document).ready(function () {
   $("#button_submit").on("click", function () {

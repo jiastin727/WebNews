@@ -42,9 +42,9 @@ include_once("justyn_ssn.php");
       color: black;
     }
 
-.item{
-  transition-duration: 0.8s !important;
-}
+    .item {
+      transition-duration: 0.8s !important;
+    }
 
     .ui.inverted.menu .item:before {
       background: #758ec6;
@@ -73,11 +73,11 @@ include_once("justyn_ssn.php");
 
 
 
-.section{
-  transition: 0.8s;
-  background: #252221 !important;
-  color: white;
-}
+    .section {
+      transition: 0.8s;
+      background: #252221 !important;
+      color: white;
+    }
 
     .section:hover {
       background-color: #2e3e46 !important;
@@ -87,17 +87,17 @@ include_once("justyn_ssn.php");
       transition-duration: 0.5s;
     }
 
-    .desc .section:hover{
-  text-decoration: none !important;
-}
+    .desc .section:hover {
+      text-decoration: none !important;
+    }
 
     .bottom_menu:hover {
       color: #1152F2 !important;
     }
 
 
-    body{
-        background-color: #252221;
+    body {
+      background-color: #252221;
 
     }
   </style>
@@ -171,7 +171,7 @@ include_once("justyn_ssn.php");
 
   <div class="ui horizontal segments section" style="width:60%; margin-left:auto; margin-right:auto; border-radius:0px; box-shadow:none;border:none; ">
     <div class="ui segment" id="news1" style="cursor: pointer; border-radius:0px; width:40%;box-shadow:none; border-style:solid; border-width:1px; border-color:darkgrey">
-      <img class="ui small left floated image" src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/4A01/production/_133154981_bishopstab.jpg.webp"; style="width:50%">
+      <img class="ui small left floated image" src="https://ichef.bbci.co.uk/news/1536/cpsprodpb/4A01/production/_133154981_bishopstab.jpg.webp" ; style="width:50%">
       <p style=" font-size:150%">Sydney church stabbing: Bishop stabbed during sermon - reports</p>
       <p class="desc" style="color:white; text-decoration:none">A 16-year-old boy has been arrested after a bishop and several churchgoers were stabbed during a sermon in Sydney.</p>
     </div>
@@ -322,6 +322,8 @@ include_once("justyn_ssn.php");
     </div>
   </div>
   <br />
+
+  <br />
   <div class="bottom_box" style="background-color:#4a81b7; color:white;padding-top:1%;">
     <a href id="webtitled">
       <img src="../Justyn/image/birdlogo.png" style="display:inline;float:left;
@@ -332,6 +334,32 @@ include_once("justyn_ssn.php");
       <span style="font-family:'Times New Roman', Times, serif; font-size:medium; line-height:2.5em;vertical-align:middle; color:white;">JustynWeb</span>
     </a>
     <br />
+    <div class="ui list" style="color:white; margin-left:2%">
+      <div class="item">
+        <i class="users icon"></i>
+        <div class="content">
+          Justynweb
+        </div>
+      </div>
+      <div class="item">
+        <i class="marker icon"></i>
+        <div class="content">
+          Jember, East Java, Indonesia
+        </div>
+      </div>
+      <div class="item">
+        <i class="mail icon"></i>
+        <div class="content">
+          <a href="mailto:justynsumarto21@gmail.com" style="color: white;">justynsumarto21@gmail.com</a>
+        </div>
+      </div>
+      <div class="item">
+        <i class="linkify icon"></i>
+        <div class="content">
+          <a href="" id="bottom_profile" style="color: white;">justynweb</a>
+        </div>
+      </div>
+    </div>
     <br />
     <hr style="border-top: 2px solid #252221; border-bottom: 2px solid #252221;">
     <br />
