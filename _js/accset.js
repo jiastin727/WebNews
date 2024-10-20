@@ -5,10 +5,10 @@ console.log($("#idReg").val());
 
 const username = getCookie("username");
 
-function submit() {
+function submitprofile() {
   $.ajax({
     type: "POST",
-    url: `${RESTLOC}submit`,
+    url: `${RESTLOC}submitprofile`,
     data: {
       first_name: $("#first_name").val(),
       last_name: $("#last_name").val(),
@@ -38,8 +38,8 @@ function submit() {
 console.log(document.querySelector("#NilaiP").value);
 
 $(document).ready(function () {
-  $("#submit_button").on("click", function () {
-    submit();
+  $("#submit_profile_button").on("click", function () {
+    submitprofile();
   });
 });
 
@@ -55,3 +55,4 @@ $("#log_out").on("click", function () {
 $("#dashboard").on("click", function () {
   window.location.href = "./?link=dashboard";
 });
+//jju
