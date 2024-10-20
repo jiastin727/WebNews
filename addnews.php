@@ -110,7 +110,7 @@ include_once("justyn_ssn.php");
     </form>
     </div>
     <br />
-    <script src="./_js/Axeswell_global.js"></script>
+    <script src="./_js/global.js"></script>
     <script src="./_js/notif.js"></script>
     <script src="./_js/addnews.js"></script>
 </body>

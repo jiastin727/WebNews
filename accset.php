@@ -115,8 +115,8 @@ include_once("justyn_ssn.php");
 
       <div class="field">
       </div>
-      <div class="ui button" id="submit_button" style="width:30%">Submit</div>
-      <input type="hidden" id="NilaiP" value="<?php echo $pValue1; ?>">
+      <div class="ui button" id="submit_profile_button" style="width:30%">Submit</div>
+      <input type="hidden" id="NilaiP" value="<?php echo $pValue; ?>">
     </form>
   </div>
   <script src="./_js/global.js"></script>
