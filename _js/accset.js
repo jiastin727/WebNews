@@ -55,3 +55,4 @@ $("#log_out").on("click", function () {
 $("#dashboard").on("click", function () {
   window.location.href = "./?link=dashboard";
 });
+//jju
